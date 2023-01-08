@@ -1,3 +1,7 @@
 server.port=8081
 mangement.endpoints.web.exposure.include= hystrix.stream
 hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMillseconds=5000
+
+eureka.cliente.registerWithEureka= true
+eureka.client.fetchRegistry=true
+eureka.client.service-url.defaultZone=http://localhost:9000
